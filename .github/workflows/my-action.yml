@@ -9,6 +9,6 @@ on: [push]
 jobs:
   # Job to print something out
   say-hello:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps: 
       - run: echo "Hello, Github Actions!"
